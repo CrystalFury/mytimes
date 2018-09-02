@@ -7,6 +7,7 @@ header {
   align-items: center;
   width: 100%;
   height: 80px;
+  border: 1px solid black;
 
 }
 
@@ -40,17 +41,66 @@ nav a {
 
 .content {
   display: flex;
+  flex-direction: row;
+  margin: 0 100px;
+  padding: 40px 0;
+  background-color: yellow;
+  font-family: Georgia;
+  font-size: 17px;
+}
+
+.column-large {
+  width: 630px;
+  display: flex;
   flex-direction: column;
 }
 
-.column.large {
-  width: 630px;
-}
-
-.column.medium {
+.column-medium {
   width: 300px;
+  margin: 0 35px;
+  display: flex;
+  flex-direction: column;
 }
 
-.column.small {
+.column-small {
   width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-text {
+  display: flex;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.main-story {
+  font-size: 40px;
+  background-image: url(../Images/story-main.png);
+  height: 300px;
+  text-align: left;
+}
+
+.image-text p {
+  margin-top: 0px;
+}
+
+.pic1 {
+  background-image: url(../Images/story-1.png);
+  height: 300px;
+  display: inline;
+}
+
+.pic2 {
+  background-image: url(../Images/story-2.png);
+  height: 300px;
+  display: inline;
+}
+
+.pic3 {
+  background-image: url(../Images/story-3.png);
+  height: 300px;
+  display: inline;
 }
